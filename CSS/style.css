@@ -1,0 +1,60 @@
+
+
+#wrapper
+{display: grid;
+    grid-template-areas:"Logo Header Header"
+                        "Nav Main Sidebar"
+                         "Footer Footer Footer";
+    grid-template-columns: 1fr 6fr 6fr;
+   
+}
+div{border: 1px solid black;
+}
+   
+ 
+
+
+background-color: 
+
+h1{text-align: center}
+h2{text-align: center}
+h2{background-color: lightcyan}
+h2{color: lightblue}
+
+#footer{background-color: lightcyan;}
+p{background-color:lightcyan;}  
+#head{background-color: }lightcyan
+img{background-color: lightcyan}
+h1 {text-align : center}
+h1 {background-color: lightcyan}
+h1{color: blue}
+
+
+img{width: 600px}
+p{font-size: 20px}
+p{color: blue}s
+p{background-color: lightcyan}
+nav{font-size:30px}
+nav{background-color: lightcyan}
+nav{color: lightblue}
+
+#Logo {
+    grid-area: Logo;
+}
+#Main{
+    grid-area: Main;
+}
+#Nav{
+    grid-area: Nav;
+}  
+#Sidebar{
+    grid-area: Sidebar;
+}
+#Footer{
+    grid-area: Footer;
+}
+#Head{
+    grid-area: Header;
+}
+div{border: 1px solid black;
+}
